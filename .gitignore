@@ -1,0 +1,47 @@
+# Node.js
+**/node_modules/
+**/package-lock.json
+**/yarn.lock
+**/npm-debug.log*
+
+# React
+/client/.env
+/client/build/
+/client/.cache
+/client/.eslintcache
+
+# Environment variables
+*.env
+*.env.local
+
+# Logs
+*.log
+logs/
+**/logs/
+**/debug/
+**/npm-debug.log*
+
+# Editor directories and files
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# macOS
+.DS_Store
+
+# Build and dist directories
+**/dist/
+**/coverage/
+
+# Debug files
+*.pid
+*.seed
+*.pid.lock
+
+# Test artifacts
+/client/coverage/
+junit.xml
